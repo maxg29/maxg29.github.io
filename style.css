@@ -20,6 +20,11 @@ hr {
   color: rgba(255, 255, 255, 0.8); 
 }
 
+nav.navbar {
+  background-color: #F05F44;
+  font-size: 1.5rem;
+}
+
 header.startup, header.startup2 {
   background-position: center;
   background-image: url("img\\rawpixel-255076-unsplash.jpg");
@@ -59,7 +64,8 @@ p {
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 2rem;
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
