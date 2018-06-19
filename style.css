@@ -20,9 +20,33 @@ hr {
   color: rgba(255, 255, 255, 0.8); 
 }
 
-nav.navbar {
-  background-color: #F05F44;
-  font-size: 1.5rem;
+nav.navbar {  
+  font-size: 1.5rem; 
+  background: rgb(240, 95, 68);  
+}
+
+.navbar-toggler-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.navbar-light .navbar-toggler {
+    color: #dee2e6;
+    border-color: #dee2e6;
+}
+
+.navbar-toggler {
+    background-color: rgba(255,255,255,.5);
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #dee2e6;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
 }
 
 header.startup, header.startup2 {
